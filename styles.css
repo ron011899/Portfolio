@@ -41,6 +41,7 @@ nav{
     border-bottom: 10px solid var(--first-color);
     box-shadow: 10px 10x 10px var(--fifth-color);
     font-size: 20px;
+
 }
 nav ul{
     display: flex;
@@ -171,7 +172,7 @@ hr{
 /* start of skill section styling */
 
 .skill-section{
-    height: 350px;
+    height: 450px;
     background-color: var(--eight-color);
 }
 .skill-head{
@@ -187,7 +188,8 @@ hr{
 .skill-container{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
     align-items: center;
 }
 .skill{
