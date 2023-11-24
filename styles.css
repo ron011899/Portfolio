@@ -223,7 +223,7 @@ hr{
 
 .project-section{
     background-color: var(--fifth-color);
-    height: 2400px
+    height: 3000px
 }
 .project-head{
     text-align: center;
@@ -266,6 +266,7 @@ hr{
     margin-bottom: 15px;
     object-fit: cover;
     border-radius: 10px;
+    border: 2px solid  var(--first-color);
 }
 .project-info .project-img:hover{
     transform: scale(1.05);
